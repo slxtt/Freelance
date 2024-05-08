@@ -6,7 +6,7 @@ $categorys = $core->query("SELECT * FROM `category`");
 ?>
 
 <main>
-    <h1 style="text-align: center; margin-top: 20px">Найди фрилансера легко!</h1>
+    <h1 style="text-align: center; margin-top: 20px">Найди фрилансера легко</h1>
     <form action="components/freelancer/search.php" method="POST" class="search">
         <input type="text" placeholder="Поиск" name="search">
         <button name="gosearch"><img src="icons/search-normal.svg"></button>
